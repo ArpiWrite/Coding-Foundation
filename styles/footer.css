@@ -1,0 +1,28 @@
+.footer-wrapper {
+    height: 120px;
+}
+
+.footer-wrapper ul {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer-wrapper > ul li {
+    width: 400px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content:center;
+    align-items: baseline;
+    list-style: none;
+    font-weight: 700;
+    background-color: #36383F;
+    border: 2px solid rgba(199 , 201, 211, 0.4);
+}
+
+.footer-wrapper > ul > li span {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-left: 2px;
+}
